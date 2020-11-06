@@ -1,0 +1,17 @@
+<mvc:View 
+  controllerName="prominion.controller.App"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc">
+  <Shell>
+    <App>
+      <pages>
+        <Page>
+          <content>
+            <mvc:XMLView
+              viewName="prominion.view.CallbackTable"/>
+          </content>
+        </Page>
+      </pages>
+    </App>
+  </Shell>
+</mvc:View>

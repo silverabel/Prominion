@@ -1,0 +1,32 @@
+[
+  {
+    "GUID": "9789C07F-862F-4943-BDF1-1E5E93A521D0",
+    "LastResult": "ADDED",
+    "OrigCallerNbr": "82837462",
+    "last": null,
+    "lastresult": "ADDED",
+    "next": "ASAP",
+    "queuename": "AAA, BBB Express",
+    "start": "14.10.2020 09:57"
+  },
+  {
+    "GUID": "A93B982D-1ECC-4890-BAEE-834986796605",
+    "LastResult": "ADDED",
+    "OrigCallerNbr": "37128376",
+    "last": null,
+    "lastresult": "ADDED",
+    "next": "ASAP",
+    "queuename": "Courier",
+    "start": "14.10.2020 08:58"
+  },
+  {
+    "GUID": "B4EBCC1D-5910-4E38-88E4-902D4663E1BE",
+    "LastResult": "ADDED",
+    "OrigCallerNbr": "28232342",
+    "last": null,
+    "lastresult": "ADDED",
+    "next": "ASAP",
+    "queuename": "ASD",
+    "start": "14.10.2020 10:18"
+  }
+]

@@ -1,0 +1,56 @@
+<mvc:View
+controllerName="prominion.controller.App"
+xmlns="sap.m"
+xmlns:mvc="sap.ui.core.mvc">
+  <Table
+    width="auto"
+    items="{
+      path: 'callbacks>/',
+      sorter: {
+        path: 'start'
+      }
+    }"
+    growing="true"
+    growingThreshold="50"
+    >
+    <columns>
+      <Column
+        minScreenWidth="tablet">
+        <Text text="ID"/>
+      </Column>
+      <Column>
+        <Text text="Nimi"/>
+      </Column>
+      <Column
+        demandPopin="true"
+        minScreenWidth="tablet">
+        <Text text="Telefoninumber"/>
+      </Column>
+      <Column>
+        <Text text="Helistamise aeg"/>
+      </Column>
+      <Column></Column>
+    </columns>
+    <items>
+      <ColumnListItem>
+        <cells>
+          <Text text="{callbacks>GUID}"/>
+        </cells>
+        <cells>
+          <Text text="{callbacks>queuename}"/>
+        </cells>
+        <cells>
+          <Text text="{callbacks>OrigCallerNbr}"/>
+        </cells>
+        <cells>
+          <Text text="{callbacks>start}"/>
+        </cells>
+        <cells>
+          <Button
+          text="Kustuta"
+          press=".deleteCallback"/>
+        </cells>
+      </ColumnListItem>
+    </items>
+  </Table>
+</mvc:View>
